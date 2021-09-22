@@ -10,13 +10,13 @@ criar um script em package.json
     "dev": "nodemon src/server.js"
   }
 -----------------------------------------
-criar servidor express
-	const express = require("express")
-	cost app = express()
-	app.use(express.json())
-	app.metodo('/',(req, res)=>{
-		return res.json({});
-	app.listen(NNNN) 
+criar servidor express<br>
+	const express = require("express")<br>
+	cost app = express()<br>
+	app.use(express.json())<br>
+	app.metodo('/',(req, res)=>{<br>
+		return res.json({})<br>
+	app.listen(NNNN) <br>
 -----------------------------------------
 Métodos http<br>
   GET - busca de iformação dentro do servidor<br>
